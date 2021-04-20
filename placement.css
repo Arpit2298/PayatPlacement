@@ -458,6 +458,7 @@ button {
     font-weight: 500;
     font-size: 41px;
     color: white;
+    padding-top: 30px;
     margin: 50px 0;
 }
 
@@ -631,7 +632,7 @@ input {
     }
     .List {
         max-width: 330px;
-        height: 720px;
+        height: 920px;
     }
     .padding {
         margin: 0 10px;
@@ -648,7 +649,7 @@ input {
         margin: -10px 0;
     }
     nav img {
-        width: 100px;
+        width: 80px;
     }
     button {
         padding: 5px;
@@ -709,10 +710,34 @@ input {
     }
     .List {
         max-width: 290px;
-        height: 720px;
+        height: 970px;
     }
     .padding {
         margin: 0 10px;
+    }
+    #i4 {
+        height: 170vh;
+    }
+    /* .............................footer............................... */
+    footer h3 {
+        font-size: 13px;
+    }
+    #foot h4 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .contact-section2 {
+        grid-template-rows: 300px;
+    }
+    input {
+        padding: 5px 20px;
+    }
+    .button {
+        padding: 5px;
+        margin: 10px 0;
+    }
+    .msg {
+        height: 80px;
     }
 }
 
@@ -808,9 +833,37 @@ input {
     .List {
         max-width: 450px;
         /* width: 45%; */
-        height: 650px;
+        height: 920px;
         margin: 20px 0;
         float: none;
+    }
+    #i4 {
+        height: 330vh;
+    }
+    .List:hover {
+        transform: translatey(0px);
+    }
+    /* .................................Footer........................................... */
+    p {
+        padding: 15px;
+    }
+    .contact-section {
+        width: 94%;
+        padding: 0 12px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    #number {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    .contact-section2 {
+        box-sizing: border-box;
+        padding: 0 3%;
+        display: grid;
+        grid-template-columns: repeat(1, 99%);
+        grid-template-rows: 300px;
     }
     /* .................................hamburger.................................... */
     #menuArea input {
